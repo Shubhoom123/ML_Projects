@@ -1,13 +1,10 @@
-# 🧠 Machine Learning Projects — Beginner Tier
+# 🧠 Machine Learning Projects
 
 Welcome to my Machine Learning Projects repository!  
-This section contains **Beginner-level ML projects** that I built while learning the foundations of data analysis, model building, and exploratory data work.
-
-Each project is organized into its own folder and includes Jupyter notebooks with code, visualizations, and insights.
-
+This section contains **All my ML projects** that I built while studying at an Undergraduate Level.
 ---
 
-## 📂 Beginner Projects Included
+## 📂 Beginner Projects Included as of now
 
 ### 1️⃣ **Heart Disease Prediction**
 A basic ML project exploring health data to understand key factors related to heart disease.  
@@ -44,13 +41,6 @@ I will be adding more projects as I continue learning and improving:
 - End-to-end ML pipelines  
 - Deep learning projects  
 - Advanced algorithms  
-- Real-world datasets  
 
-Stay tuned for updates!
 
----
-
-## ⭐ About This Repository
-This repo is part of my journey to strengthen my foundations in Machine Learning.  
-The goal is to maintain a clear structure and track my progress from **Beginner → Intermediate → Advanced** projects.
 
