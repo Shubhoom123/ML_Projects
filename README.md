@@ -19,11 +19,12 @@ A data exploration project analyzing Premier League team performance, using R/Py
 ---
 
 ## 📊 Skills Demonstrated
-- Data cleaning & preprocessing  
-- Exploratory data analysis (EDA)  
-- Feature understanding  
-- Machine learning basics (regression/classification)  
-- Jupyter Notebook workflow  
+- Data Wrangling & preprocessing
+- Feature Engineering
+- Label Encoding and One hot Encoding
+- Supervised Learning (Logistic Regression, Decision Trees, Random Forest Classifier, SVM with scaling)
+- Neural Networkds (ANN using Keras)
+- Unsupervised Learning (PCA, K-means clustering)
 
 ---
 
