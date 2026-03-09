@@ -1,47 +1,35 @@
-# 🧠 Machine Learning Projects
+# Machine Learning Projects
 
-Welcome to my Machine Learning Projects repository!  
-This section contains **All my ML projects** that I built while studying at an Undergraduate Level.
----
+This repository contains machine learning projects developed during my undergraduate studies.
 
-## 📂 Beginner Projects Included as of now
+## Beginner Projects
 
-### 1️⃣ **Heart Disease Prediction**
-A basic ML project exploring health data to understand key factors related to heart disease.  
-Includes preprocessing, visualization, and simple model training.
+### Heart Disease Prediction
+Explores healthcare data to identify factors associated with heart disease using preprocessing, visualization, and basic model training.
 
-### 2️⃣ **Movie Rating Analysis**
-An exploratory project analyzing movie rating datasets, identifying trends, correlations, and building simple predictive models.
+### Movie Rating Analysis
+Analyzes movie rating datasets to identify trends, correlations, and build simple predictive models.
 
-### 3️⃣ **Premier League Performance Analysis**
-A data exploration project analyzing Premier League team performance, using R/Python for visual insights and beginner-friendly ML steps.
+### Premier League Performance Analysis
+Examines Premier League team performance using data analysis and introductory machine learning techniques.
 
----
+## Skills Demonstrated
 
-## 📊 Skills Demonstrated
-- Data Wrangling & preprocessing
-- Feature Engineering
-- Label Encoding and One hot Encoding
-- Supervised Learning (Logistic Regression, Decision Trees, Random Forest Classifier, SVM with scaling)
-- Neural Networkds (ANN using Keras)
-- Unsupervised Learning (PCA, K-means clustering)
-
----
-
-## ⏳ Coming Soon
-
-I will be adding more projects as I continue learning and improving:
-
-### 🔸 **Intermediate Tier Projects**
-- More complex models  
+- Data preprocessing and wrangling  
 - Feature engineering  
-- Evaluation techniques  
-- Model tuning  
+- Label encoding and one-hot encoding  
+- Supervised learning (Logistic Regression, Decision Trees, Random Forest, SVM)  
+- Neural networks (ANN using Keras)  
+- Unsupervised learning (PCA, K-means clustering)
 
-### 🔸 **Advanced Tier Projects**
-- End-to-end ML pipelines  
-- Deep learning projects  
-- Advanced algorithms  
+## Upcoming Work
 
+### Intermediate Projects
+- Advanced feature engineering  
+- Model evaluation and tuning  
+- More complex models  
 
-
+### Advanced Projects
+- End-to-end machine learning pipelines  
+- Deep learning applications  
+- Advanced algorithms
