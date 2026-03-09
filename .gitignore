@@ -1,0 +1,15 @@
+.DS_Store
+.history/
+**/.history/
+.env
+__pycache__/
+node_modules/
+**/__pycache__/
+**/*.pyc
+**/venv/
+**/.venv/
+**/node_modules/
+**/.env
+*.csv
+*.pdf
+*.html

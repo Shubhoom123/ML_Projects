@@ -1,0 +1,76 @@
+.tab-bar {
+    display: flex;
+    background-color: var(--tabbar-bg);
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+    flex-shrink: 0;
+    height: 35px;
+}
+
+.tab-bar::-webkit-scrollbar {
+    height: 0;
+}
+
+.tab {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 16px;
+    min-width: 120px;
+    background: var(--tab-inactive);
+    border: none;
+    border-right: 1px solid var(--border);
+    cursor: pointer;
+    color: var(--text-secondary);
+    font-size: 13px;
+    font-family: var(--font-mono);
+    white-space: nowrap;
+    transition: var(--transition);
+    position: relative;
+    height: 35px;
+}
+
+.tab:hover {
+    color: var(--text-primary);
+    background-color: var(--bg-hover);
+}
+
+.tab.active {
+    background-color: var(--tab-active);
+    color: var(--text-bright);
+    border-top: 1px solid var(--accent);
+}
+
+.tab-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: var(--accent);
+    flex-shrink: 0;
+}
+
+.tab.active .tab-dot {
+    background-color: var(--text-green);
+}
+
+.tab-label {
+    flex: 1;
+}
+
+.tab-close {
+    opacity: 0;
+    font-size: 16px;
+    line-height: 1;
+    color: var(--text-secondary);
+}
+
+.tab:hover .tab-close,
+.tab.active .tab-close {
+    opacity: 1;
+}
+
+.tab-bar-fill {
+    flex: 1;
+    background-color: var(--tabbar-bg);
+    border-bottom: 1px solid var(--border);
+}

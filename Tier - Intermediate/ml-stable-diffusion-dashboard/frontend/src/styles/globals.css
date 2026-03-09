@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* VS Code Colors */
+    --bg-primary: #1e1e1e;
+    --bg-secondary: #252526;
+    --bg-tertiary: #2d2d30;
+    --bg-hover: #2a2d2e;
+    --bg-active: #094771;
+    --bg-input: #3c3c3c;
+
+    /* Sidebar */
+    --sidebar-bg: #333333;
+    --sidebar-width: 48px;
+    --panel-width: 240px;
+
+    /* Borders */
+    --border: #3e3e42;
+    --border-light: #464646;
+
+    /* Text */
+    --text-primary: #cccccc;
+    --text-secondary: #858585;
+    --text-muted: #6b6b6b;
+    --text-bright: #ffffff;
+    --text-blue: #4fc1ff;
+    --text-green: #4ec9b0;
+    --text-yellow: #dcdcaa;
+    --text-orange: #ce9178;
+    --text-purple: #c586c0;
+    --text-red: #f44747;
+
+    /* Accent */
+    --accent: #0078d4;
+    --accent-hover: #1184db;
+    --accent-light: #264f78;
+
+    /* Status Colors */
+    --green: #4ec9b0;
+    --red: #f44747;
+    --yellow: #cca700;
+    --blue: #4fc1ff;
+    --orange: #ce9178;
+
+    /* Status Bar */
+    --statusbar-bg: #007acc;
+    --statusbar-height: 22px;
+
+    /* Tab Bar */
+    --tabbar-bg: #2d2d30;
+    --tab-active: #1e1e1e;
+    --tab-inactive: #2d2d30;
+
+    /* Fonts */
+    --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+    --font-ui: 'Inter', sans-serif;
+
+    /* Transitions */
+    --transition: all 0.15s ease;
+}
+
+body {
+    font-family: var(--font-ui);
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-size: 13px;
+    line-height: 1.5;
+    overflow: hidden;
+    height: 100vh;
+}
+
+#root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-primary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: #424242;
+    border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.fade-in {
+    animation: fadeIn 0.2s ease forwards;
+}

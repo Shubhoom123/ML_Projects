@@ -1,0 +1,82 @@
+.contributors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 12px;
+    padding: 4px;
+}
+
+.contributor-card {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    transition: var(--transition);
+    position: relative;
+}
+
+.contributor-card:hover {
+    border-color: var(--accent);
+    background-color: var(--bg-tertiary);
+}
+
+.contributor-rank-badge {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 10px;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+}
+
+.contributor-avatar {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    flex-shrink: 0;
+}
+
+.contributor-details {
+    flex: 1;
+    min-width: 0;
+}
+
+.contributor-username {
+    color: var(--text-blue);
+    text-decoration: none;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.contributor-username:hover {
+    text-decoration: underline;
+}
+
+.contribution-bar-container {
+    height: 4px;
+    background-color: var(--bg-tertiary);
+    border-radius: 2px;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+
+.contribution-bar {
+    height: 100%;
+    background: linear-gradient(90deg, var(--accent), var(--text-blue));
+    border-radius: 2px;
+    transition: width 0.6s ease;
+}
+
+.contribution-count {
+    font-size: 11px;
+    color: var(--text-muted);
+    font-family: var(--font-mono);
+}
